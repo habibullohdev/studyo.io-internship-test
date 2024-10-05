@@ -257,7 +257,6 @@ class _MainAppState extends State<MainApp> {
                 ],
               ),
               const Spacer(),
-              // TODO: adding toast and extract logic to separate function
               GestureDetector(
                 onTap: () {
                   if (!isAnswerTrue) {
